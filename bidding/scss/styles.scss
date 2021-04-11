@@ -1,0 +1,31 @@
+/*Remember to put 'sass --watch scss:css' from the terminal while in this directory*/
+$bidWidth: 10em;
+
+#inputs{
+    background-color: lightslategray;
+    height: 4em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bid1{
+    background-color: lightpink;
+    width: $bidWidth;
+    height: $bidWidth;
+}
+
+.bid2{
+    background-color: lightblue;
+}
+.bidderbar{
+    display: flex;
+}
+
+#bidSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.postBox{
+    background-color: lightsteelblue;
+}
